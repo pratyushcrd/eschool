@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/primary"
+        android:layout_width="match_parent"
+        app:theme="@style/Tooltheme"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar2"
+        android:id="@+id/content_frame2"></RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_frame2"
+        android:id="@+id/cal_ll">
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/cal2_txt1"
+            android:textColor="@android:color/holo_green_light"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/cal2_txt2"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+
+    <!--  <View
+         android:layout_width="match_parent"
+         android:layout_height="5dp"
+         android:background="@drawable/toolbar_dropshadow" />
+ navigation drawer -->
+</RelativeLayout>
