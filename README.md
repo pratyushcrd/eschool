@@ -24,5 +24,7 @@ There are a lot of benefits of using this application on a general purpose<br>
 </p>
 
 <p>
-
+<h3> App on Play Store </h3>
+- <a>https://play.google.com/store/apps/details?id=pratyush.school_project</a>
+- <a>https://play.google.com/store/apps/details?id=pratyush.eureka_school</a>
 </p>
